@@ -1,0 +1,50 @@
+
+.container-cards {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.cardDogContainer{
+  background-color: black;
+  color: aliceblue;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageDog{
+  width:240px;
+  padding: 12px;
+}
+
+@media (max-width: 768px) {
+  #cardUm{
+    display: flex;
+  }
+  #cardDois{
+    display: flex;
+  }
+  #cardTres{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  #cardUm{
+    display: flex;
+  }
+  #cardDois{
+    display: none;
+  }
+  #cardTres{
+    display: none;
+  }
+}
